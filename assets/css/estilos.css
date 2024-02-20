@@ -93,6 +93,69 @@ body{
 .logo img{
     width: 100%;
 }
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 10em;
+    border: solid 1px;
+    border-radius: 3%;
+    border-color: #8e42a5;
+    margin: 5px;
+    padding: 5px;    
+}
+.card-header{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #8e42a5;
+    font-weight: bold;
+}
+.card-body{
+    flex-grow: 1;
+    flex-shrink: 1;     
+}
+.card-body p{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #8e42a5;
+    font-weight: bold;
+    padding: 1px;
+
+}
+.card-body img{
+    width: 100%;
+    height: 100%;
+}
+.card-footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    justify-content: center;   
+}
+.card-footer p{
+align-items: center;
+}
+
+.my-button {
+  padding: 10px 20px;
+  background-color: #c82da6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.my-button:hover {
+  background-color: #772958;
+}
+.my-button:active {
+  background-color: #c82f53;
+}
 
 /*----------- MOVIL FIRST ---------------*/
 .main{
@@ -241,6 +304,12 @@ body{
     .asd{
         display: flex;
         visibility: visible;
+    }
+    .asd .caja_aside{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
     .contenido{
         display: grid;

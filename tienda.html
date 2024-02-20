@@ -14,20 +14,35 @@
   </head>
   <body>
     <div class="grid-container">
-      <header class="header">
-        <div class="logo"><img src="./assets/img/logoJosué3.png" /></div>
-      </header>
-      <menu class="menu_lat">
-        <i class="fa-solid fa-bars oculta">
-        <ul class="ocultar_menu">
-          <li><a href="./index.html">Inicio</a></li>
-          <li><a href="#">Nosotros</a></li>
-          <li><a href="#">Contacto</a></li>
-          <li><a href="./tienda.html">Tienda</a></li>
+      <div class="logo">
+        <img src="./assets/img/logoJosué3.png" alt="" />
+      </div>
+      <nav class="navbar">
+        <a class="navbar-logo" href="#">
+          <i class="fa-solid fa-chess-queen"></i>
+          Estilo y arte floral Chile
+        </a>
+        <input type="checkbox" id="expand-toggle" />
+        <label for="expand-toggle" class="menu-icon">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <ul class="navbar-nav">
+          <li class="nav-item oculta">
+            <a class="nav-link" href="./index.html">Inicio</a>
+          </li>
+          <li class="nav-item oculta">
+            <a class="nav-link" href="./index.html">Quien soy</a>
+          </li>
+          <li class="nav-item oculta">
+            <a class="nav-link" href="./tienda.html">Tienda</a>
+          </li>
+          <li class="nav-item oculta">
+            <a class="nav-link" href="./index.html">Contacto</a>
+          </li>
         </ul>
-      </i>
-      </menu>
-      <main class="contenido">
+      </nav>
+      <main class="main">
+        <main class="contenido">
         <div class="cards">
           <div class="card">
             <div class="card-header">Ramo Gerberas</div>
@@ -175,8 +190,10 @@
           </div>
         </div>
       </main>
-      <aside class="ads">
-        <div class="ocultar_aside">
+      </main>
+      </main>
+      <aside class="asd">
+        <div class="caja_aside">
         <h3>Hola, Soy Josué</h3>
         <hr />
         <div class="foto">
